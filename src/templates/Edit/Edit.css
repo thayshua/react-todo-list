@@ -1,0 +1,36 @@
+.edit {
+  background: #ccc;
+  height: calc(100vh - 60px);
+  width: auto;
+  padding: 30px 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  > .todolist {
+    background: white;
+    display: grid;
+    grid-template-rows: 30px 50px auto;
+    row-gap: 10px;
+    height: 400px;
+    width: 300px;
+    padding: 10px 20px;
+  }
+
+  > .todolist > .title {
+    margin: 0;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 36px;
+  }
+  
+
+  > .todolist > .add {
+    display: flex;
+    justify-content: center;
+  }
+
+  > .todolist > .add > .button {
+    align-self: end;
+  }
+}

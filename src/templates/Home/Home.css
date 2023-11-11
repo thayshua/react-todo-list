@@ -1,0 +1,26 @@
+.Home {
+  background: #ccc;
+  height: calc(100vh - 60px);
+  width: auto;
+  padding: 30px 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Home > .todo-list {
+  background: white;
+  display: grid;
+  grid-template-rows: 30px auto;
+  height: 400px;
+  width: 300px;
+  padding: 10px 20px;
+}
+
+.Home > .todo-list > .editicon {
+  justify-self: end;
+}
+
+.Home > .todo-list > .itemlist {
+  list-style-type: none;
+}
